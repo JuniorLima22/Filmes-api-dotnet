@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+bIwkkNZxKs1gtUyFaNSk5Ifmx1/AVifGPL1Ep8inmJbFbCMSqciHkf7HKWNrn1Qq9HAkCiaEe62EhYIG5lVWA==",
+  "dgSpecHash": "ZjFUdv3QmrDvh27VsZjLVUrFMPr2kLlpqQFSXhc/MeuJ3IxAmLHwLuqTgqS652ETKQJETnXcwXbTWWOwiJpsmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fo2680\\filme-api\\FilmesApi\\FilmesApi.csproj",
+  "projectFilePath": "C:\\Users\\fo2680\\projetos-dotnet\\FilmesApi\\FilmesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fo2680\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\fo2680\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
