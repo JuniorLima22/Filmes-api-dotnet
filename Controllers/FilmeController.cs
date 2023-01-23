@@ -14,6 +14,14 @@ public class FilmeController : ControllerBase
     public void AdicionaFilme([FromBody] Filme filme)
     {
         filmes.Add(filme);
-        Console.WriteLine(filme);
+        Console.WriteLine(filme.Titulo);
+        Console.WriteLine(filme.Genero);
+        Console.WriteLine(filme.Duracao);
+    }
+
+    [HttpGet]
+    public IEnumerable<Filme> RecuperaFilmes()
+    {
+        return filmes;
     }
 }
