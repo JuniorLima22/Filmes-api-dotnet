@@ -5,11 +5,16 @@ namespace FilmeApi.Data
 {
     public class FilmeContext : DbContext
     {
-        public DbSet<Filme> Filmes { get; set; }
-
         public FilmeContext(DbContextOptions<FilmeContext> opts) : base(opts)
         {
 
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite($"Data Source=Filmes4.db");
+        }
+
+        public DbSet<Filme> Filmes { get; set; }
     }
 }

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<FilmeContext>(opts => opts.UseSqlite(builder.Configuration.GetConnectionString("FilmeConnection")));
+builder.Services.AddDbContext<FilmeContext>(opts => opts.UseSqlite(builder.Configuration.GetConnectionString("SqliteConnectionString")));
 
 // Add services to the container.
 
