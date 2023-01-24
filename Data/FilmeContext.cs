@@ -12,7 +12,7 @@ namespace FilmeApi.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite($"Data Source=Filmes4.db");
+            optionsBuilder.UseSqlite($"Data Source=Filmes.db");
         }
 
         public DbSet<Filme> Filmes { get; set; }
